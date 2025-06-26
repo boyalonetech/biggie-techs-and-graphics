@@ -2,7 +2,10 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#7300ff" />
+    <meta name="description" content="Professional UI/UX Designer and Graphic Artist specializing in creating captivating digital experiences and brand identities." />
+    <meta name="keywords" content="UI/UX Design, Graphic Design, Product Strategy, Brand Identity, Digital Design, Creative Services" />
     <title> Graphic Designer | Biggie Techs & Graphics</title>
     <link rel="icon" href="99774543.jpg">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -63,14 +66,13 @@
     data-aos-delay="100"
   >
     <!-- Decorative Blobs -->
-    <div class="blob blob1"></div>
-    <div class="blob blob2"></div>
+      <!-- <div class="blob blob1"></div>
+      <div class="blob blob2"></div> -->
 
     <!-- Navbar -->
     <header
       class="p-6 flex justify-between items-center bg-white dark:bg-gray-900 fixed w-full z-50 backdrop-blur-md"
-      data-aos="fade-down"
-    >
+      data-aos="fade-down">
       <h1 class="text-3xl font-extrabold tracking-tight">
         <span
           class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500"
@@ -94,32 +96,31 @@
     </header>
 
     <!-- Mobile Nav -->
-    <div id="mobileMenu" class="hidden md:hidden fixed top-20 right-6 bg-white dark:bg-gray-800 rounded-md shadow-lg z-50 p-6 space-y-4 text-sm font-medium">
-      <a href="#about" class="block hover:text-purple-600">About</a>
-      <a href="#skills" class="block hover:text-purple-600">Skills</a>
-      <a href="#experience" class="block hover:text-purple-600">Experience</a>
-      <a href="#work" class="block hover:text-purple-600">Work</a>
-      <a href="#testimonials" class="block hover:text-purple-600">Testimonials</a>
-      <a href="#contact" class="block hover:text-purple-600">Contact</a>
-    </div>
+     <div 
+    id="mobileMenu" class="hidden md:hidden fixed top-20 right-0 w-full bg-white dark:bg-gray-800 shadow-lg z-50 p-6 space-y-4 text-base font-medium transform transition-transform duration-300 ease-in-out">
+      <a href="#about" class="block hover:text-purple-600" id="aMenu">About</a>
+      <a href="#skills" class="block hover:text-purple-600" id="aMenu">Skills</a>
+      <a href="#experience" class="block hover:text-purple-600" id="aMenu">Experience</a>
+      <a href="#work" class="block hover:text-purple-600" id="aMenu">Work</a>
+      <a href="#testimonials" class="block hover:text-purple-600" id="aMenu">Testimonials</a>
+      <a href="#contact" class="block hover:text-purple-600" id="aMenu">Contact</a>
+    </div> 
 
     <!-- Hero Section -->
     <section
       id="hero"
-      class="min-h-screen flex flex-col md:flex-row items-center justify-between px-6 md:px-16 pt-32 gap-10"
-    >
-      <div class="max-w-4xl text-left" data-aos="fade-right">
+      class="min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-16 pt-24 md:pt-32 pb-12 md:pb-0 gap-8 md:gap-10">
+      <div class="w-full md:max-w-4xl text-center md:text-left" data-aos="fade-right">
         <h2
-          class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500"
+          class="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500"
         >
           I Design Experiences That Wow
         </h2>
 
-        <!-- Roles -->
-        <div class="flex flex-wrap my-6 gap-3">
-          <span class="text-white bg-[#7300ff] py-2 px-4 rounded-2xl">Graphic Designer</span>
-          <span class="text-white bg-[#7300ff] py-2 px-4 rounded-2xl">UI/UX Designer</span>
-          <span class="text-white bg-[#7300ff] py-2 px-4 rounded-2xl">Product Manager</span>
+        <div class="flex flex-wrap justify-center md:justify-start my-4 md:my-6 gap-3">
+          <span class="text-white bg-[#7300ff] py-2 px-4 rounded-2xl text-sm">Graphic Designer</span>
+          <span class="text-white bg-[#7300ff] py-2 px-4 rounded-2xl text-sm">UI/UX Designer</span>
+          <span class="text-white bg-[#7300ff] py-2 px-4 rounded-2xl text-sm">Product Manager</span>
         </div>
 
         <p class="text-lg sm:text-xl text-gray-700 dark:text-gray-300 mb-8 max-w-xl">
@@ -133,29 +134,26 @@
         >Explore My Work</a>
       </div>
 
-      <!-- Hero Image -->
       <div class="flex-1 flex justify-center md:justify-end" data-aos="fade-left">
         <div
-          class="w-72 h-72 sm:w-80 sm:h-80 md:m-0 m-12  bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden scale-[1.2] shadow-[0px_0px_12px_#400e7e] hover:scale-[1.3] hover:shadow-[0px_0px_30px_#400e7e] transition-transform duration-500"
+          class="w-72 h-72 sm:w-80 sm:h-80 md:m-0 m-12  bg-gray-200 dark:bg-gray-700 rounded-full lg:scale-[1.2] shadow-[0px_0px_12px_#400e7e] hover:scale-[1.3] hover:shadow-[0px_0px_30px_#400e7e] transition-transform duration-500"
         >
           <img
             src="1750579295493.jpg"
-            alt="Promise Portrait"
-            class="w-full h-full object-cover"
+            alt="Promise" class="w-full h-full object-cover rounded-full"
           />
         </div>
       </div>
     </section>
     <!-- About -->
-    <section
+     <section
       id="about"
-      class="py-32 px-6 md:px-16 bg-gray-50 dark:bg-gray-800"
+      class="py-20 md:py-32 px-4 md:px-16 bg-gray-50 dark:bg-gray-800"
       data-aos="zoom-in"
     >
       <div
         class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center"
       >
-        <!-- About Text -->
         <div>
           <h3 class="text-4xl lg:text-5xl font-bold mb-6 text-indigo-600">About Me</h3>
           <p class="text-lg lg:text-2xl leading-relaxed text-gray-600 dark:text-gray-400">
@@ -166,23 +164,21 @@
             data insights, and bold aesthetics.
           </p>
         </div>
-        <!-- Profile Image -->
-        <div class="relative mx-auto w-64 h-64">
+        <div class="relative mx-auto w-full max-w-sm md:w-64 h-64 mt-8 md:mt-0">
           <img
             src="1750579292461.jpg"
             alt="Promise Profile"
             class="rounded-lg shadow-lg object-cover w-full h-full"
           />
-          <!-- Decorative Frame -->
           <div
             class="absolute top-4 left-4 w-64 h-64 border-4 border-indigo-500 rounded-lg transform rotate-3"
           ></div>
         </div>
       </div>
-    </section>
+    </section> 
 
     <!-- Skills -->
-    <section
+     <section
       id="skills"
       class="py-32 px-6 md:px-16 bg-white dark:bg-gray-900"
       data-aos="fade-right"
@@ -191,8 +187,7 @@
         <h3 class="text-4xl font-bold text-center mb-12 text-purple-700">
           Skills & Tools
         </h3>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
-          <!-- Tool Cards with Icon + Background Shape -->
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-12 text-center">
           <div data-aos="flip-left" class="relative p-4">
             <div
               class="absolute -top-4 -left-4 w-16 h-16 bg-purple-200 dark:bg-purple-800 rounded-full opacity-70"
@@ -235,23 +230,20 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
 <!-- Experience Section -->
-<section id="experience" class="py-24 px-6 md:px-16 bg-blue-50 dark:bg-gray-800" data-aos="fade-left">
+<!-- <section id="experience" class="py-24 px-6 md:px-16 bg-blue-50 dark:bg-gray-800" data-aos="fade-left">
   <div class="max-w-6xl mx-auto">
     <h3 class="text-4xl font-bold text-center text-blue-600 mb-16">
       Professional Experience
     </h3>
     
     <div class="grid gap-12 lg:grid-cols-2">
-      <!-- Experience Card 1 -->
       <div class="bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row items-center p-6 md:p-8 transition-all hover:shadow-2xl">
-        <!-- Image -->
         <div class="w-32 h-32 md:w-36 md:h-36 bg-white rounded-lg overflow-hidden shadow-md flex-shrink-0">
           <img src="83513760.jpg" alt="NovaTech Logo" class="object-contain w-full h-full p-4">
         </div>
-        <!-- Text -->
         <div class="mt-6 md:mt-0 md:ml-8 text-center md:text-left">
           <span class="text-gray-500 text-sm font-semibold">2022 – Present</span>
           <h4 class="text-xl md:text-2xl font-bold text-indigo-600 mt-2">
@@ -263,13 +255,10 @@
         </div>
       </div>
 
-      <!-- Experience Card 2 -->
       <div class="bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden flex flex-col md:flex-row items-center p-6 md:p-8 transition-all hover:shadow-2xl">
-        <!-- Image -->
         <div class="w-32 h-32 md:w-36 md:h-36 bg-white rounded-lg overflow-hidden shadow-md flex-shrink-0">
           <img src="PSX_20250601_002913-02.jpeg.jpg" alt="Luma Brands Logo" class="object-contain w-full h-full p-4">
         </div>
-        <!-- Text -->
         <div class="mt-6 md:mt-0 md:ml-8 text-center md:text-left">
           <span class="text-gray-500 text-sm font-semibold">2019 – 2022</span>
           <h4 class="text-xl md:text-2xl font-bold text-purple-600 mt-2">
@@ -282,11 +271,11 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
     <!-- Work -->
-    <section
+   <section
       id="work"
       class="py-32 px-6 md:px-16 bg-white dark:bg-gray-900"
       data-aos="zoom-in-up"
@@ -295,8 +284,7 @@
         <h3 class="text-4xl font-bold text-center mb-12 text-purple-500">
           Highlighted Projects
         </h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-          <!-- Project with placeholder media -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
           <div
             class="relative group overflow-hidden rounded-2xl shadow-lg"
             data-aos="fade-up"
@@ -316,7 +304,6 @@
               <p class="text-sm">Get Yout modern Perfume and Diffusers etc.</p>
             </div>
           </div>
-          <!-- Repeat for two more -->
           <div
             class="relative group overflow-hidden rounded-2xl shadow-lg"
             data-aos="fade-up"
@@ -479,10 +466,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
 
 <!-- Testimonials -->
-<section
+ <section
   id="testimonials"
   class="py-24 px-6 md:px-16 bg-blue-50 dark:bg-gray-800"
   data-aos="fade-up"
@@ -491,8 +478,7 @@
     <h3 class="text-4xl md:text-5xl font-extrabold mb-14 text-purple-600">
       What Our Clients Say
     </h3>
-    <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-      <!-- Testimonial Card 1 -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
       <div
         class="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300"
         data-aos="fade-up"
@@ -513,7 +499,6 @@
         </div>
       </div>
 
-      <!-- Testimonial Card 2 -->
       <div
         class="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300"
         data-aos="fade-up"
@@ -534,7 +519,6 @@
         </div>
       </div>
 
-      <!-- Testimonial Card 3 -->
       <div
         class="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-md hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300"
         data-aos="fade-up"
@@ -556,16 +540,16 @@
       </div>
     </div>
   </div>
-</section>
+</section> 
 
 
 <!-- Contact -->
-<section
+ <section
   id="contact"
-  class="py-32 px-6 md:px-16 bg-gradient-to-r from-indigo-500 to-purple-600 text-white"
+  class="py-20 md:py-32 px-4 md:px-16 bg-gradient-to-r from-indigo-500 to-purple-600 text-white"
   data-aos="zoom-in"
 >
-  <div class="max-w-xl mx-auto text-center">
+  <div class="max-w-xl mx-auto text-center px-4">
     <h3 class="text-4xl font-bold mb-6">Let's Collaborate</h3>
     <p class="mb-8 text-lg">
       Have a vision or project? Let's bring it to life with strategic design
@@ -577,42 +561,40 @@
         id="name"
         placeholder="Full Name"
         required
-        class="w-full px-4 py-3 rounded bg-white text-gray-800"
+        class="w-full px-6 py-4 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-purple-400"
       />
       <input
         type="email"
         id="email"
         placeholder="Email"
         required
-        class="w-full px-4 py-3 rounded bg-white text-gray-800"
+        class="w-full px-6 py-4 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-purple-400"
       />
       <textarea
         id="message"
         rows="4"
         placeholder="Your Message"
         required
-        class="w-full px-4 py-3 rounded bg-white text-gray-800"
+        class="w-full px-6 py-4 rounded-lg bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-purple-400"
       ></textarea>
       <button
         type="submit"
-        class="mt-4 px-8 py-4 bg-black text-white rounded-full font-semibold hover:bg-gray-900 transition"
+        class="mt-6 w-full sm:w-auto px-8 py-4 bg-black text-white rounded-full font-semibold hover:bg-gray-900 active:bg-gray-800 transform active:scale-95 transition-all duration-150"
       >
         Send Message
       </button>
     </form>
   </div>
-</section>
+</section> 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-300 px-6 py-12">
-      <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-8">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
         
-        <!-- Logo & Tagline -->
         <div>
           <h2 class="text-white text-2xl font-bold">Biggie Techs & Graphics</h2>
           <p class="text-sm mt-2 text-gray-400">UI/UX | Graphic | Product Strategy</p>
         </div>
     
-        <!-- Quick Links -->
         <div>
           <h3 class="text-white font-semibold mb-3">Quick Links</h3>
           <ul class="space-y-2 text-sm">
@@ -623,30 +605,17 @@
           </ul>
         </div>
     
-        <!-- Social Links -->
-        <!-- <div>
-          <h3 class="text-white font-semibold mb-3">Connect</h3>
-          <div class="flex gap-5 text-xl">
-            <a href="https://wa.me/08119251230" target="_blank" class="hover:text-green-500 transition"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://facebook.com" target="_blank" class="hover:text-blue-500 transition"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com" target="_blank" class="hover:text-blue-400 transition"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com" target="_blank" class="hover:text-pink-500 transition"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </div> -->
+
     
-      <!-- Bottom Section -->
       <div class="mt-10 border-t border-gray-700 pt-4 text-center text-sm text-gray-500">
         <p>© 2025 Biggie Techs & Graphics. All rights reserved.</p>
       </div>
     </footer>
     
     
-    <!-- Font Awesome CDN -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     
 
-    <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
@@ -668,14 +637,45 @@
   }
 
   const menu = document.getElementById("mobileMenu");
+let isMenuOpen = false;
 
-  function toggleMenu() {
-    menu.classList.toggle("hidden");
+function closeMenu() {
+  menu.classList.add("hidden");
+  document.body.classList.remove("overflow-hidden");
+  isMenuOpen = false;
+}
+
+function openMenu() {
+  menu.classList.remove("hidden");
+  document.body.classList.add("overflow-hidden");
+  isMenuOpen = true;
+}
+
+function toggleMenu() {
+  if (isMenuOpen) {
+    closeMenu();
+  } else {
+    openMenu();
   }
+}
 
-  menu.addEventListener("click", () => {
-    menu.classList.toggle("hidden");
-  })
+// Handle clicks on menu items
+const menuLinks = menu.getElementsByTagName('a');
+Array.from(menuLinks).forEach(link => {
+  link.addEventListener('click', closeMenu);
+});
+
+// Handle clicks outside the menu
+document.addEventListener('click', (event) => {
+  if (isMenuOpen && !menu.contains(event.target) && !event.target.closest('button')) {
+    closeMenu();
+  }
+});
+
+// Prevent menu from closing when clicking inside it
+menu.addEventListener('click', (event) => {
+  event.stopPropagation();
+});
     </script>
   </body>
 </html>
